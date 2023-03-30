@@ -10,8 +10,7 @@ function Navegacion() {
       <Navbar bg="light" expand="lg">
           <Container>
               <Navbar.Brand href="#home">
-                  <img className="logo" src="logo.jpg" alt="logo" width="100" height="60"  //Si pongo una imagen de la web me la renderiza, pero cuando lo hago local no. Ayuda!
-                    />
+                  <img className="logo" src={require('../NavBar/logo.jpg')} alt="logo" width="100" height="60" />
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
